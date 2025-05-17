@@ -29,6 +29,7 @@ body {
   --c1: rgb(218, 218, 218);
   --c2: rgb(30, 95, 235);
   --c3: rgb(0, 0, 0);
+  --c4: rgba(218, 218, 218, 0.5);
 }
 
 * {
@@ -101,10 +102,35 @@ b {
   font-size:30px;
   left:15px;
   top:15px;
+  z-index:99999;
+  position:fixed;
+  display:none;
+}
+
+.dropdown {
   z-index:9999;
   position:fixed;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  background: var(--c4);
+  top:0px;
+  left:0px;
+  height:100vh;
+  width:100vw;
+  backdrop-filter: blur(30px);
+}
+
+@media screen and (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+  .navItem {
+    display:none;
+  }
 }
 
 .onPage {
   opacity: 0.5;
 }
+
