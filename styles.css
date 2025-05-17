@@ -6,6 +6,8 @@
   align-items: center;
   height: 100vh;
   text-align:center;
+  width:50vw;
+  padding-left:25vw;
 }
 
 #openInNew {
@@ -14,6 +16,9 @@
 }
 
 body {
+  justify-content: center;
+  align-items: center;
+  text-align:center;
   padding: none;
   outline: none;
   font-family: "Funnel Display";
@@ -31,7 +36,7 @@ body {
 }
 
 .bigTitle {
-  font-size: 100px; 
+  font-size: 50px; 
 }
 
 .navItem {
