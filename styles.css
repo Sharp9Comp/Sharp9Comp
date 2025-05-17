@@ -11,7 +11,7 @@
 }
 
 #openInNew {
-  width:10px;
+  width:20px;
   padding-left:5px;
 }
 
@@ -42,7 +42,14 @@ body {
 .navItem {
   background:none;
   border:none;
-  font-size:15px;
+  font-size:30px;
+  font-family:"Funnel Display";
+  padding:0px 10px;
+}
+
+.navItem:hover {
+  opacity:0.5;
+  cursor: pointer;
 }
 
 .nav {
@@ -56,6 +63,11 @@ body {
   text-align: center;
   border-bottom:2px solid var(--c2);
   overflow:scroll
+}
+
+b {
+  font-size: 30px;
+  padding:0px 10px;
 }
 
 .bl {
@@ -86,4 +98,13 @@ body {
   color:black;
   border:none;
   background: none;
+  font-size:30px;
+  left:15px;
+  top:15px;
+  z-index:9999;
+  position:fixed;
+}
+
+.onPage {
+  opacity: 0.5;
 }
