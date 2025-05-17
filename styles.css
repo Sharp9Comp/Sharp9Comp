@@ -13,6 +13,6 @@
 .toggle-theme {
   background: red;
   color:green;
-  --bbg:white;
-  --bc:black;
+  --bbg:green;
+  --bc:red;
 }
