@@ -4,11 +4,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   text-align:center;
 }
 
 .stop {
+  position:fixed;
+  left:0px;
+  right:0px;
   overflow: hidden;
   padding:30px;
   top:0px;
