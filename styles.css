@@ -110,9 +110,6 @@ b {
 .dropdown {
   z-index:9999;
   position:fixed;
-  text-align:center;
-  justify-content: center;
-  align-items: center;
   background: var(--c4);
   top:0px;
   left:0px;
@@ -134,3 +131,32 @@ b {
   opacity: 0.5;
 }
 
+.bigNavItem {
+  background: none;
+  border:none;
+  font-size:30px;
+  cursor:pointer;
+}
+
+.bigNavItem:hover {
+  opacity:0.5;
+}
+
+.dropdown.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left:0px;
+  width:100vw;
+  display:none;
+}
+
+button {
+  font-family: "Funnel Display";
+}
+
+.show {
+  display: flex !important;
+}
