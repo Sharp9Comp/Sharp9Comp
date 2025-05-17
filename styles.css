@@ -30,6 +30,7 @@ body {
   font-family: "Funnel Display";
   background:var(--c1);
   margin:0;
+  height:100%;
 }
 
 :root {
