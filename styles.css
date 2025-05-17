@@ -6,8 +6,14 @@
   align-items: center;
   height: 100vh;
   text-align:center;
-  width:75vw;
-  padding-left:12.5vw;
+}
+
+.stop {
+  overflow: hidden;
+  padding:30px;
+  top:0px;
+  bottom:0px;
+  box-sizing:border-box;
 }
 
 #openInNew {
@@ -23,6 +29,7 @@ body {
   outline: none;
   font-family: "Funnel Display";
   background:var(--c1);
+  margin:0;
 }
 
 :root {
