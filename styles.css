@@ -3,9 +3,10 @@
   --bbg:black;
   --bc:white;
 }
+
 .toggle-theme {
-  background: #121212;
-  color: #f0f0f0;
+  color:whitesmoke;
+  background:#141414;
   --bbg:white;
   --bc:black;
 }
