@@ -61,3 +61,22 @@ body {
 .bl {
   color: var(--c2);
 }
+
+.btn1 {
+  background:var(--c2);
+  border:none;
+  color:var(--c1);
+  padding:15px 25px;
+  font-family: "Funnel Display";
+  font-size: 20px;
+  transition: ease-in-out 0.4s;
+}
+
+.btn1:hover {
+  opacity: 0.75;
+}
+
+.btn1:active {
+  transition:none;
+  opacity:0.25;
+}
