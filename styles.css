@@ -80,3 +80,10 @@ body {
   transition:none;
   opacity:0.25;
 }
+
+.hamburger {
+  text-align: left;
+  color:black;
+  border:none;
+  background: none;
+}
