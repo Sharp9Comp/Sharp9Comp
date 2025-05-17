@@ -9,6 +9,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* This overrides the theme variables when .toggle-theme is active */
 .toggle-theme {
   --bbg: white;
   --bc: black;
