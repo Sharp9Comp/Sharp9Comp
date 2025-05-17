@@ -4,3 +4,8 @@
   font-weight: bold;
   font-size: 100px;
 }
+
+.nav {
+  position: sticky;
+  top: 0px;
+}
