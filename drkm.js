@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", (event) => {
+  init("ease-in-out", "0.5s");
+});
+
 var doc = document.body;
 
 function drkm() {
