@@ -1,16 +1,17 @@
+:root {
+  --bbg: black;
+  --bc: white;
+}
+
 body {
   background-color: var(--bbg);
   color: var(--bc);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-:root {
-  --bbg:black;
-  --bc:white;
-}
 
 .toggle-theme {
-  color:var(--bc);
-  background:var(--bbg);
+  --bbg: white;
+  --bc: black;
 }
 
 .bigTitle {
