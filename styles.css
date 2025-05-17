@@ -30,7 +30,6 @@ body {
   font-family: "Funnel Display";
   background:var(--c1);
   margin:0;
-  height:100%;
 }
 
 :root {
@@ -122,8 +121,6 @@ b {
   background: var(--c4);
   top:0px;
   left:0px;
-  height:100vh;
-  width:100vw;
   backdrop-filter: blur(30px);
 }
 
