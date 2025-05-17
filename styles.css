@@ -144,13 +144,19 @@ b {
 }
 
 .dropdown.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   padding-left:0px;
-  width:100vw;
   display:none;
 }
 
