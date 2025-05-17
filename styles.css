@@ -1,3 +1,7 @@
+body {
+  background: white;
+  color: black;
+}
 .bigTitle {
   color: red;
   font-family: "Zain";
