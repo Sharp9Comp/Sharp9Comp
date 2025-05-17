@@ -1,14 +1,16 @@
-
+body {
+  background-color: var(--bbg);
+  color: var(--bc);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 :root {
   --bbg:black;
   --bc:white;
 }
 
 .toggle-theme {
-  color:whitesmoke;
-  background:#141414;
-  --bbg:white;
-  --bc:black;
+  color:var(--bc);
+  background:var(--bbg);
 }
 
 .bigTitle {
