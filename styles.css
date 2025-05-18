@@ -88,6 +88,10 @@ b {
   color: var(--c2);
 }
 
+.btn1, .btn2 {
+  margin:15px;
+}
+
 .btn1 {
   background:var(--c2);
   border:none;
