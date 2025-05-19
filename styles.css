@@ -43,6 +43,25 @@ body {
   --c6: rgb(170, 170, 170);
 }
 
+.oView {
+  top:0;
+  bottom:0;
+  height:auto;
+  position:fixed; 
+  padding:40px;
+  width: auto;
+  border: 2px solid var(--c2);
+}
+
+.navItem a, .bigNavItem a, .noLink {
+  text-decoration: none;
+}
+
+
+.navItem a, .bigNavItem a {
+  color: var(--c3);
+}
+
 * {
   outline:none!important;
 }
@@ -95,7 +114,7 @@ b {
 .btn1 {
   background:var(--c2);
   border:none;
-  color:var(--c1);
+  color:var(--c1)!important;
   padding:15px 25px;
   font-family: "Funnel Display";
   font-size: 20px;
@@ -216,4 +235,9 @@ button {
 
 .show {
   display: flex !important;
+}
+
+.btn1 a {
+  color: var(--c1);
+  text-decoration: none;
 }
