@@ -10,7 +10,7 @@
 
 html {
   background:url(/repeatedBackground.png);
-  background-size:300px;
+  background-size:200px;
 }
 
 .now {
@@ -260,4 +260,20 @@ button {
 .btn1 a {
   color: var(--c1);
   text-decoration: none;
+}
+
+.contactBtn {
+  z-index:999999;
+  position:fixed;
+  bottom:4px;
+  right: 15px;
+  background: var(--c2);
+  border:none;
+  color: var(--c1)!important;
+  padding: 5px 15px;
+  font-family: "Funnel Display";
+  cursor:pointer;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+  font-weight:bold;
 }
