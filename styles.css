@@ -7,13 +7,23 @@
   text-align:center;
 }
 
+
+html {
+  background:url(/repeatedBackground.png);
+  background-size:300px;
+}
+
+.now {
+  height: 100vh;
+  overflow:auto;
+}
+
 .stop {
   position:fixed;
   left:0px;
   right:0px;
-  overflow: hidden;
   padding:30px;
-  top:0px;
+  top:0px; 
   bottom:0px;
   box-sizing:border-box;
 }
@@ -41,16 +51,26 @@ body {
   --c4: rgba(218, 218, 218, 0.5);
   --c5: rgb(87, 129, 218);
   --c6: rgb(170, 170, 170);
+  --c4: rgba(218, 218, 218, 0.1);
+}
+
+.small {
+  letter-spacing: 3px;
+  
+  font-size:35px!important;
 }
 
 .oView {
+  text-align:left;
   top:0;
   bottom:0;
   height:auto;
   position:fixed; 
-  padding:40px;
+  padding:80px 40px;
   width: auto;
+  max-width: 400px;
   border: 2px solid var(--c2);
+  background:var(--c1);
 }
 
 .navItem a, .bigNavItem a, .noLink {
@@ -95,7 +115,7 @@ body {
   z-index:999;
   text-align: center;
   border-bottom:2px solid var(--c2);
-  overflow:scroll
+  overflow:scroll;
 }
 
 b {
