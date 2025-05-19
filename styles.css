@@ -54,6 +54,18 @@ body {
   --c4: rgba(218, 218, 218, 0.1);
 }
 
+table, th, td {
+  border: 1px solid var(--c2);
+  border-collapse: collapse;
+}
+
+table {
+  width:100%;
+}
+th, td {
+  padding: 7.5px;
+}
+
 .small {
   letter-spacing: 3px;
   
